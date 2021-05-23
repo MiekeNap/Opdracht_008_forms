@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Mieke's eerste HTML pagina </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Contactformulier</h1>
+    <form name="contact" data-netlify="true">
+        <label for="voornaam" >Voornaam:</label><br>
+        <input type="text" id="voornaam" name="voornaam"/><br>
+        <label for="acternaam">Achternaam:</label><br>
+        <input type="text" id="acthernaam" name="acternaam"/><br>
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email"/><br>
+        <label for="bericht">Schrijf hier uw bericht:</label><br>
+        <textarea id="bericht" name="bericht" rows="5" cols="20">
+        </textarea><br>
+        <input type="submit"/>
+    </form>
+</body>
+<footer>
+    <nav> 
+        <ul class="links">
+            <li class="navli"> <a href="index.html">terug naar de homepage</a></li>
+            <li class="navli"> <a target="_blank" href="about.html">info over mij</a></li>
+            <li class="navli active"> <a href="contact.html">contactformulier</a></li>
+            <li class="navli"> <a target="_blank" href="https://www.google.com">google</a></li>
+        </ul>
+    </nav>
+</footer>
+</html>
